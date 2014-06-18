@@ -1,5 +1,7 @@
 <?php
 
+namespace WTFException;
+
 class WTFException extends Exception
 {
 
@@ -14,5 +16,3 @@ class WTFException extends Exception
         parent::__construct($message, $code);
     }
 }
-
-?>
